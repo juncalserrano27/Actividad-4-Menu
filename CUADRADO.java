@@ -1,6 +1,6 @@
 
 public class CUADRADO {
-	public int longitudL;
+	public double longitudL;
 	
 	//public CUADRADO() {
 	//this.longitudL=178054;
@@ -9,12 +9,12 @@ public class CUADRADO {
 		CUADRADO(){
 			this(178054);
 		}
-		CUADRADO (int longitudL2){
+		CUADRADO (double longitudL2){
 			this.longitudL=longitudL2;
 		}
 		
-	public int calcularPerimetroCu() {
-		return longitudL*4;
+	public double calcularPerimetroCu() {
+		return longitudL*4.0;
 	}
 	public double calculaAreaCu() {
 		return Math.pow(longitudL,2);
@@ -22,7 +22,7 @@ public class CUADRADO {
 	public double calculaDiagonalCu() {
 		return Math.sqrt(2*(Math.pow(longitudL,2 )));
 	}
-	public void cambiarLongitudL(int longitudL2) {
+	public void cambiarLongitudL(double longitudL2) {
 		longitudL=longitudL2;
 	}
 

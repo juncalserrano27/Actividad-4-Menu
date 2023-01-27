@@ -1,6 +1,6 @@
 
 public class CIRCULO {
-	int radio;
+	double radio;
 	/*public CIRCULO(){
 		this.radio=178054;
 	}
@@ -10,7 +10,7 @@ public class CIRCULO {
 	CIRCULO(){
 		this(178054);
 	}
-	CIRCULO(int radio2){
+	CIRCULO(double radio2){
 		this.radio=radio2;
 	}
 	public double calcularCircunferencia(){
@@ -19,7 +19,7 @@ public class CIRCULO {
 	public double calcularArea() {
 		return Math.PI*(Math.pow(radio, 2));
 	}
-	public void cambiarRadio(int radio2) {
+	public void cambiarRadio(double radio2) {
 		radio=radio2;
 	}
 
