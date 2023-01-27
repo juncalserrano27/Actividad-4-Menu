@@ -11,7 +11,7 @@ public class programa {
 		if (opcion==1) {
 			CUADRADO uno=new CUADRADO();
 			System.out.println("Indique de que longitud sera el lado del cuadrado:");
-			int lado =scan.nextInt();
+			double lado =scan.nextDouble();
 			uno.cambiarLongitudL(lado);
 			System.out.println("1. Calcular diagonal");
 			System.out.println("2. Calcular perimetro");
@@ -31,8 +31,8 @@ public class programa {
 		}if (opcion==2) {
 		CIRCULO unoC=new CIRCULO();
 		System.out.println("Indique de que longitud sera el radio del circulo:");
-		int radio =scan.nextInt();
-		unoC.cambiarRadio(radio);;
+		double radio =scan.nextDouble();
+		unoC.cambiarRadio(radio);
 		System.out.println("1. Calcular circunferencia");
 		System.out.println("2. Calcular el área");
 		System.out.println("Elija lo que desea calcular:");
